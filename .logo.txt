@@ -1,0 +1,16 @@
+.logo
+{
+  position: absolute;
+} 
+.offset {
+ left: 20px;
+ top: -45px;
+}
+
+
+@media (min-width: 421px) {
+  .main-header {
+    background-color: #294969;
+    color: ghostwhite;
+  }
+}

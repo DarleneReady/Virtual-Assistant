@@ -1,5 +1,4 @@
-CSS 
-.container {
+container {
    display: flex;
    flex-wrap: wrap;
  }
@@ -14,39 +13,40 @@ aside{
   padding: 20px;
 }
 
- }
 h1 {
     font-size: 20px;
     text-align: center;
     font: darkgrey;
   }
   
-  p, li {
+ p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
   }
   @media screen and (min: width 500px) and (max-width:1024px){
    }
-   .header {
+   
+header {
      width:800px;
      margin: 0 auto;
      padding: 0 10px 10px 10px;
      border: 10px;
    }
-.div1 {
+
+div1 {
   width: 300px;
   height: 100px;
   border: 1px solid white;
 }
 
-.div2 {
+div2 {
   width: 300px;
   height: 100px;
   padding: 50px;
   border: 1px solid white;
 }
-   body {
+  body {
     width:600px;
     margin:0 auto;
     background-color: #00ff9d;
@@ -75,7 +75,6 @@ label{
    width: 150px;
    text-align:right;
 }
-
 button{
   margin-left: 155px;
   margin-top:10px;

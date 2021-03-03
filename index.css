@@ -1,13 +1,19 @@
 CSS 
-main {
-     float:left;
-     width: 560px;
-     border-right: 1px solid color 
+.container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+main{
+  flex: 70%;
+  padding: 20px;
 }
-asdie{
-   float:left;
-   width: 200px;
-   padding-left: 4px;
+
+aside{
+  flex: 30%;
+  padding: 20px;
+}
+
  }
 h1 {
     font-size: 20px;

@@ -1,0 +1,56 @@
+.header{
+    background-color:ghostwhite;
+    padding:0;
+}
+.header-container {
+    width: 60%;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.test-container{
+    display: flex;
+    width:10%;
+    justify-content: space-bewteen
+}
+.svg-container{
+    width: 60%;
+    display:flex;
+}
+
+.svg-logo {
+     width: 3rem;
+     height: 3rem;
+}
+
+.nav-container{
+    position:relative;
+}
+.nav-menu {
+    width: 50%
+}
+
+.nav-menu * {
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 0rem 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.nav-button{
+    height: 3rem
+}
+.menu-open {
+    display: none;
+}
+
+align-s
+  .svg-menu{
+      width:3rem;
+      height:3rem;
+  }
+.menu-closed {
+    display:none;
+}

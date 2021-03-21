@@ -8,9 +8,6 @@ main{
   padding: 20px;
 }
 
-aside{
-  flex: 30%;
-  padding: 20px;
 }
 
 h1 {
@@ -34,17 +31,6 @@ header {
      border: 10px;
    }
 
-div1 {
-  width: 300px;
-  height: 100px;
-  border: 1px solid white;
-}
-
-div2 {
-  width: 300px;
-  height: 100px;
-  padding: 50px;
-  border: 1px solid white;
 }
   body {
     width:600px;
@@ -59,7 +45,7 @@ div2 {
 img {
   object-position: right;
   border-radius: 50%;
-  <img src="Darlene.jpeg"alt="picture of me" height 50px width 50px>
+  <img src="Darlene.jpeg"alt="picture of me" height 25px width 25px>
 }
 button {
     background-color: yellowgreen;

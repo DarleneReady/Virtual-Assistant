@@ -1,3 +1,12 @@
+img {
+  border-radius: 50%;
+}
+
+background {
+   color: light-green;
+   font: dark-gray;
+}
+
 margin {
 margin:0;
 padding:0;

@@ -15,6 +15,11 @@ padding:0;
 }
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:600px;
+    margin:0 auto;
+    background-color: #00ff9d;
+    padding: 0 10px 10px 10px;
+    border: 10px solid aqua;
    }
 
 nav {
@@ -32,7 +37,7 @@ nav {
 
    }
 
-   .nav-links li a {
+ .nav-links li a {
        color: black;
        text-decoration:none;
        font-size: 14px;

@@ -9,7 +9,7 @@ background {
    font: dark-gray;
 }
 column-layout {
-   background-color: lemon yellow
+   background-color: lemon yellow;
    margin: 50px;
    padding: 20px:
    display: flex;
@@ -20,6 +20,7 @@ column-layout {
 .second-column {
   flex: 1;
  }
+
 .form-row {
   padding: 10px;
   display: flex;
@@ -32,13 +33,14 @@ margin {
 margin:0;
 padding:0;
 }
+
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:600px;
-    margin:0 auto;
-    background-color: #00ff9d;
-    padding: 0 10px 10px 10px;
-    border: 10px solid aqua;
+   width:600px;
+   margin:0 auto;
+   background-color: #00ff9d;
+   padding: 0 10px 10px 10px;
+   border: 10px solid aqua;
    }
 
 nav {
@@ -46,7 +48,7 @@ nav {
    background: blue
    }
 
-   .nav-links {
+.nav-links {
        display: flex;
        width:50%;
        width: 50%;
@@ -55,8 +57,7 @@ nav {
        margin: auto;
 
    }
-
- .nav-links li a {
+.nav-links li a {
        color: black;
        text-decoration:none;
        font-size: 14px;

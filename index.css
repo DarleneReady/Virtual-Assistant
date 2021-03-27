@@ -35,14 +35,16 @@ h1 {
      text-aligh: center;
      font-style: bold;
 }
- p, 
+ 
+p, 
 li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
   }
-  @media (max-width: 500px){
-.column-layout {
+  
+@media (max-width: 500px){
+   .column-layout {
    width: 80%;
   flex-direction: column;
   }
@@ -55,14 +57,16 @@ header {
      border: 10px;
    }
 
-}
+
   body {
     width:600px;
     margin:0 auto;
     background-color: #00ff9d;
     padding: 0 10px 10px 10px;
     border: 10px solid aqua;
-.pic {
+}
+   
+  .pic {
   object-position: right;
   border-radius: 50%;
   width: 200px;

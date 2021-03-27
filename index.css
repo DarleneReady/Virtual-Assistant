@@ -71,8 +71,8 @@ p, li {
 .pic {
   border: 2px solid light yellow;
   padding: 10px;
-  border-top-right-radius: 40%
-  border-radius: 75%;
+  position: top-right-corner;
+  border-radius: 50;
   width: 200px;
   padding: auto;
  }

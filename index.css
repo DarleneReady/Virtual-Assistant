@@ -7,9 +7,9 @@
 
 .first-column {
   flex-basis: 50%
+  display: flex;
   text-align: center;
   border: 2px solid black;
-  display: flex;
 }
 
 .first-column  <p> {
@@ -21,8 +21,9 @@
   display: flex;
   align-items: center;
   border: 2px solid black;
-  display: flex;
-}
+  border-radius: 20px;
+  box-shadow: 5 px 35 px 25% black;
+ }
 
 main{
   flex: 70%;
@@ -77,7 +78,7 @@ header {
   padding: auto;
  }
 
-.pageheading {
+.pageHeading {
   Object-position: center;
   padding: auto;
   width: 200px;

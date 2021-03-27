@@ -67,7 +67,7 @@ header {
     border: 10px solid aqua;
 }
    
-  .pic {
+.pic {
   object-position: right;
   border-radius: 50%;
   width: 200px;

@@ -12,7 +12,7 @@
   border: 2px solid black;
 }
 
-.first-column  <p> {
+.first-column> {
   font-size: 1.25rem;
 }
 
@@ -25,7 +25,7 @@
   box-shadow: 5 px 35 px 25% black;
  }
 
-main{
+main {
   flex: 70%;
   padding: 20px;
 }
@@ -55,7 +55,7 @@ p, li {
   }
 }
 
-header {
+.header {
      width:800px;
      margin: 0 auto;
      padding: 0 10px 10px 10px;
@@ -63,7 +63,7 @@ header {
    }
 
 
-  body {
+.body {
     width: 1000px;
     margin:0 auto;
     background-color: #00ff9d;
@@ -84,7 +84,7 @@ header {
   width: 200px;
 }
 
-button {
+.button {
     background-color: yellowgreen;
     color: white;
     padding: 15px 20px;
@@ -93,13 +93,13 @@ button {
     width: 100%;
 }
 
-   label {
+.label {
    display:inline-block;
    width: 150px;
    text-align:right;
 }
 
-button {
+.button {
   margin-left: 155px;
   margin-top:10px;
 }

@@ -1,29 +1,30 @@
 .column-layout {
-  width: 50%
+  width: 80%;
   margin: 0 auto;
   display: flex;
-  border: 5px solid yellow;
 }
 
 .first-column {
   flex-basis: 50%
-  display: flex;
+   display: flex;
+   flex-direction: column;
   text-align: center;
-  border: 2px solid teal;
+  border: 2px solid red;
 }
 
-.first-column> {
-  font-size: 1.25rem;
+.flex-column> p {
+  font-size: 1.25 rem;
 }
 
 .second-column {
-  flex-basis: 50%;
+  flex-basis: 50%
   display: flex;
+  flex-direction: column;
   align-items: center;
-  border: 2px solid black;
+  border: 2 px solid black;
   border-radius: 20px;
   box-shadow: 5 px 35 px 25% black;
- }
+}
 
 main {
   flex: 70%;
@@ -79,8 +80,7 @@ p, li {
   Object-position: center;
   padding: auto;
   width: 200px;
-  text-size 300px;
-}
+ }
 
 .button {
     background-color: yellowgreen;

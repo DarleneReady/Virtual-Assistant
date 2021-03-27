@@ -9,6 +9,7 @@
   flex-basis: 50%
   text-align: center;
   border: 2px solid black;
+  display: flex;
 }
 
 .first-column  <p> {
@@ -20,6 +21,7 @@
   display: flex;
   align-items: center;
   border: 2px solid black;
+  display: flex;
 }
 
 main{

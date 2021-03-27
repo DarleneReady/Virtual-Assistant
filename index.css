@@ -9,11 +9,10 @@
   flex-direction: column;
   text-align: center;
   border: 2px solid red;
+  font: 1.50rem;
 }
 
-.flex-column {
-  font-size: 1.25 rem;
-}
+
 
 .second-column {
   flex-basis: 50%
@@ -23,6 +22,7 @@
   border: 2 px solid black;
   border-radius: 20px;
   box-shadow: 5 px 35 px 25% black;
+  font: 1rem;
 }
 
 main {

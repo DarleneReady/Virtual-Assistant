@@ -67,8 +67,8 @@ header {
     width:600px;
     margin:0 auto;
     background-color: #00ff9d;
-    padding: 0 10px 10px 10px;
-    border: 10px solid aqua;
+    padding: 0 200px 200px 200px;
+    border: 2px dotted aqua;
 }
    
 .pic {

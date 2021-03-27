@@ -10,9 +10,11 @@
   text-align: center;
   border: 2px solid black;
 }
-.first-column > p {
+
+.first-column  <p> {
   font-size: 1.25rem;
 }
+
 .second-column {
   flex-basis: 50%;
   display: flex;
@@ -71,9 +73,14 @@ header {
   object-position: top-right;
   border-radius: 50%;
   width: 200px;
-  padding: auto
+  padding: auto;
  }
 
+.pageheading {
+  Object-position: center;
+  padding: auto;
+  width: 200px;
+}
 
 button {
     background-color: yellowgreen;

@@ -43,7 +43,7 @@ h2 {
 }
  
 p, li {
-  font-size: 20px;
+  font-size: 10px;
   line-height: 2;
   letter-spacing: 1px;
   }
@@ -71,7 +71,7 @@ p, li {
 .pic {
   border: 2px solid light yellow;
   padding: 30px;
-  border-radius: 50;
+  border-radius: 50%;
   width: 200px;
 }
 

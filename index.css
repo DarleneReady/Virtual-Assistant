@@ -9,11 +9,8 @@
   flex-basis: 50%
   display: flex;
   text-align: center;
-  border: 2px solid teal;
-}
-
-.first-column> {
   font-size: 1.25rem;
+  border: 2px solid teal;
 }
 
 .second-column {

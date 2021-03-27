@@ -5,14 +5,13 @@
 }
 
 .first-column {
-  flex-basis: 50%
-  display: flex;
+  flex-basis: 50%;
   flex-direction: column;
   text-align: center;
   border: 2px solid red;
 }
 
-.flex-column> p {
+.flex-column {
   font-size: 1.25 rem;
 }
 
@@ -38,7 +37,7 @@ h1 {
   }
  
 h2 {
-  font-size: 20px
+  font-size: 20px;
   text-align: center;
   font-style: bold;
 }
@@ -71,7 +70,7 @@ p, li {
    
 .pic {
   object-position: top-right;
-  border-radius: 50%;
+  border-radius: 75%;
   width: 200px;
   padding: auto;
  }

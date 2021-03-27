@@ -28,9 +28,10 @@ main{
 h1 {
     font-size: 20px;
     text-align: center;
-    font: darkgrey;
+    font-style: bold;
   }
- h2 {
+ 
+h2 {
     font-size: 20px:
      text-aligh: center;
      font-style: bold;
@@ -82,7 +83,7 @@ button {
     width: 100%;
 }
 
-    label {
+   label {
    display:inline-block;
    width: 150px;
    text-align:right;

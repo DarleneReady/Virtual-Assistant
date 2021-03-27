@@ -70,12 +70,10 @@ p, li {
    
 .pic {
   border: 2px solid light yellow;
-  padding: 10px;
-  position: top-right-corner;
+  padding: 30px;
   border-radius: 50;
   width: 200px;
-  padding: auto;
- }
+}
 
 .pageHeading {
   Object-position: center;

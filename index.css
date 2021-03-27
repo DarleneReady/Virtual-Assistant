@@ -69,7 +69,9 @@ p, li {
    }
    
 .pic {
-  object-position: top-right;
+  border: 2px solid light yellow;
+  padding: 10px;
+  border-top-right-radius: 40%
   border-radius: 75%;
   width: 200px;
   padding: auto;

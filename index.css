@@ -12,6 +12,10 @@
   border: 2px solid teal;
 }
 
+.first-column> {
+  font-size: 1.25rem;
+}
+
 .second-column {
   flex-basis: 50%;
   display: flex;
@@ -97,5 +101,3 @@ p, li {
   margin-left: 155px;
   margin-top:10px;
 }
-
-

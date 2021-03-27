@@ -6,8 +6,8 @@
 
 .first-column {
   flex-basis: 50%
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   border: 2px solid red;
 }
@@ -32,41 +32,41 @@ main {
 }
 
 h1 {
-    font-size: 20px;
-    text-align: center;
-    font-style: bold;
+  font-size: 20px;
+  text-align: center;
+  font-style: bold;
   }
  
 h2 {
-    font-size: 20px:
-     text-align: center;
-     font-style: bold;
+  font-size: 20px
+  text-align: center;
+  font-style: bold;
 }
  
 p, li {
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
   }
   
 @media (max-width: 500px){
-   .column-layout {
-   width: 80%;
+  .column-layout {
+  width: 80%;
   flex-direction: column;
   }
 }
 
 .header {
-     width:800px;
-     margin: 0 auto;
-     padding: 0 10px 10px 10px;
-     border: 10px;
+  width:800px;
+  margin: 0 auto;
+  padding: 0 10px 10px 10px;
+  border: 10px;
    }
 
 
 .body {
-    margin:0 auto;
-    background-color: #00ff9d;
+  margin:0 auto;
+  background-color: #00ff9d;
    }
    
 .pic {
@@ -83,18 +83,18 @@ p, li {
  }
 
 .button {
-    background-color: yellowgreen;
-    color: white;
-    padding: 15px 20px;
-    margin: 10px 0;
-    cursor: pointer;
-    width: 100%;
+  background-color: yellowgreen;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%;
 }
 
 .label {
-   display:inline-block;
-   width: 150px;
-   text-align:right;
+  display:inline-block;
+  width: 150px;
+  text-align:right;
 }
 
 .button {

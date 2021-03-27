@@ -68,9 +68,10 @@ header {
 }
    
 .pic {
-  object-position: right;
+  object-position: top-right;
   border-radius: 50%;
   width: 200px;
+  padding: auto
  }
 
 

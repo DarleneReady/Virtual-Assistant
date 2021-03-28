@@ -12,7 +12,7 @@
   border: 2px solid;
   border-radius: 20px;
   box-shadow: 5px 35px 25% #ff99ff;
-  font: 20px;  
+  font: 15px;  
 }
 
 .second-column {
@@ -23,7 +23,7 @@
   border: 2px solid;
   border-radius: 20px;
   box-shadow: 5px 35px 25% #99ccff;
-  font: 15px;
+  font: 25px;
 }
 
 main {

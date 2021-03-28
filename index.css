@@ -5,31 +5,25 @@
 }
 
 .first-column {
-  flex-basis: 50%;
+  flex-basis: 40%;
+  display: flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid red;
+  border: 2px solid;
   border-radius: 20px;
-  box-shadow: 5px 35px 25% black;
+  box-shadow: 5px 35px 25%;
   font: 20px;  
 }
 
 .second-column {
-  flex-basis: 50%;
+  flex-basis: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 20px;
-  box-shadow: 5 px 35 px 25% black;
+  box-shadow: 5px 35px 25%;
   font: 15px;
-}
-
-.box {
-  width:70%;
-  height:200px;
-  background:#FFF;
-  margin:40px auto;
 }
 
 main {

@@ -79,8 +79,8 @@ li {
   border: 2px solid light yellow;
   padding: 30px;
   border-radius: 50%;
-  width: 200px;
-  position: absolute;
+  width: 100px;
+  align: right;
 }
 
 .pageHeading {

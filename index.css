@@ -11,7 +11,7 @@
   border: 2px solid red;
   border-radius: 20px;
   box-shadow: 5 px 35 px 25% black;
-  font: 3rem;  
+  font: 20px;  
 }
 
 .second-column {
@@ -22,7 +22,7 @@
   border: 2 px solid black;
   border-radius: 20px;
   box-shadow: 5 px 35 px 25% black;
-  font: .5rem;
+  font: 15px;
 }
 
 main {

@@ -84,12 +84,6 @@ li {
   align: right;
 }
 
-.pageHeading {
-  Object-position: center;
-  padding: auto;
-  width: 100px;
- }
-
 .button {
   background-color: #ccff99;
   color: #ffffff;

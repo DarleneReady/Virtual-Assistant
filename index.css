@@ -34,20 +34,20 @@ main {
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 100px;
   text-align: center;
   font-style: bold;
   width: 100%;
  }
  
 h2 {
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   font-style: bold;
 }
  
 p {
-  font-size: 10px;
+  font-size: 30px;
   line-height: 3;
   letter-spacing: 1px;
   }

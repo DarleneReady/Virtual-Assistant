@@ -83,12 +83,12 @@ li {
 }
 
 .label {
-  display:inline-block;
+  display: inline-block;
   width: 150px;
-  text-align:right;
+  text-align: right;
 }
 
 .button {
   margin-left: 155px;
-  margin-top:10px;
+  margin-top: 10px;
 }

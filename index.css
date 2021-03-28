@@ -11,7 +11,7 @@
   text-align: center;
   border: 2px solid;
   border-radius: 20px;
-  box-shadow: 5px 35px 25%;
+  box-shadow: 5px 35px 25% #ff99ff;
   font: 20px;  
 }
 
@@ -22,7 +22,7 @@
   align-items: center;
   border: 2px solid;
   border-radius: 20px;
-  box-shadow: 5px 35px 25%;
+  box-shadow: 5px 35px 25% #99ccff;
   font: 15px;
 }
 
@@ -77,10 +77,10 @@ li {
  }
    
 .pic {
-  border: 2px solid light yellow;
+  border: 2px solid #ffff99;
   padding: 30px;
   border-radius: 50%;
-  width:50px;
+  width: 100px;
   align: right;
 }
 
@@ -91,8 +91,8 @@ li {
  }
 
 .button {
-  background-color: yellowgreen;
-  color: white;
+  background-color: #ccff99;
+  color: #ffffff;
   padding: 15px 20px;
   margin: 10px 0;
   cursor: pointer;

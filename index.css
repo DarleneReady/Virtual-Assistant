@@ -52,6 +52,7 @@ li {
   font-size 10px;
   line-height: 2;
   letter-spacing: 1px;
+}
   
 @media (max-width: 500px){
   .column-layout {
@@ -66,13 +67,12 @@ li {
   padding: 0 5px 5px 5px;
   border: 10px;
   text-align: center;
-   }
-
+ }
 
 .body {
   margin:0 auto;
   background-color: #00ff9d;
-   }
+ }
    
 .pic {
   border: 2px solid light yellow;

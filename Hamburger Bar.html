@@ -1,54 +1,20 @@
-#hamnav {
-  width: 100%;
-  background: #000;
-  /* Optional */
-  position: sticky;
-  top: 0;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pure CSS Hamburger Menu</title>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="hamnav">
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
 
-
-#hamnav label, #hamburger { display: none; }
-
-
-#hamitems { display: flex; }
-#hamitems a {
-  width: 20%; /* 100% / 5 tabs = 20% */
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-}
-#hamitems a:hover {
-  background: #401408;
-}
-
-
-@media screen and (max-width: 768px){
-    #hamnav label { 
-    display: inline-block; 
-    color: white;
-    background: #a02620;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
- 
-  #hamitems a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-top: 1px solid #333;
-  }
-
-  /* Toggle Show/Hide Menu */
-  #hamitems { display: none; }
-  #hamnav input:checked ~ #hamitems { display: block; }
-}
-
-/* [DOES NOT MATTER] */ 
-html, body { 
-  padding: 0; 
-  margin: 0; 
-  font-family: arial, sans-serif; 
-}
+      <!-- [MENU ITEMS] -->
+      <div id="hamitems">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    </nav>
+  </body>
+</html>

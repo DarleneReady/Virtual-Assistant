@@ -1,4 +1,9 @@
 #hamnav {
+  position: sticky;
+  top: 0;
+}
+
+#hamnav {
   width: 100%;
   background: #000;
   position: sticky;

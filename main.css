@@ -19,15 +19,16 @@
 .svg-container{
     width: 60%;
     display:flex;
-    
-    
 }
 
 .svg-logo {
      width: 3rem;
      height: 3rem;
-    
 }
+
+@ media (max-width 600px) {
+    .toggle-button {
+        display: flex;
 
 .nav-container{
     position:relative;
@@ -41,7 +42,6 @@
 .svg-menu {
    width: 3rem;
    height: 3rem;
-
 }
 
 .menu-open {
@@ -49,7 +49,6 @@
 }
 
 .menu-closed {
- 
 }
 
 .mav-menu {

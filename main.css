@@ -1,78 +1,9 @@
-.header{
-    background-color:lemonyellow;
-    padding:0;
+.fa-1x {
+font-size: 1.5rem;
 }
-.header-container {
-    background:lemonyellow;
-    width: 60%;
-    margin:auto;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
+.navbar-toggler.toggler-example {
+cursor: pointer;
 }
-.test-container{
-    display: flex;
-    width:90%;
-    justify-content: space-bewteen
+.dark-blue-text {
+color: #0A38F5;
 }
-.svg-container{
-    width: 60%;
-    display:flex;
-}
-
-.svg-logo {
-     width: 3rem;
-     height: 3rem;
-}
-
-@ media (max-width 600px) {
-    .toggle-button {
-        display: flex;
-
-.nav-container{
-    position:relative;
-}
-
-.nav-button{
-    height: 3rem;
-    self-align: center;
-}
-
-.svg-menu {
-   width: 3rem;
-   height: 3rem;
-}
-
-.menu-open {
-   display: none;
-}
-
-.menu-closed {
-}
-
-.mav-menu {
-  position: absolute;
-  right: 0;
-  background: lmeonyellow;
-  width: 100%;
-}
-
-.closedNav {
-    display: none;
-}
-
-.openNav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-cnter: center;
-    align-content: center;
-}
-
-.nav-Menu * {
-    margin: 0rem 3rem;
-    font-size: 2rem;
-    curser: hand;
-}
- 

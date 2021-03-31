@@ -1,26 +1,20 @@
-var menu = document.querySelector(".menu")
-var ham = document.querySelector(".ham")
-var xIcon = document.querySelector(".xIcon")
-var menuIcon = document.querySelector(".menuIcon")
+const sideNav = document.querySelector(".sideNav")
+const overlay = document.querySelector(".overlay")
+const ham = document.querySelector(".ham")
+const menuX = document.querySelector(".menuX")
+const menuItems = document.querySelectorAll(".menuLink")
 
-ham.addEventListener("click", toggleMenu)
+menuItems.forEach(menuItem => {
+  menuItem.addEventListener("click", toggleHamburger)
+})
 
-function toggleMenu() {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    xIcon.style.display = "none";
-    menuIcon.style.display = "block";
-  } else {
-    menu.classList.add("showMenu");
-    xIcon.style.display = "block";
-    menuIcon.style.display = "none";
-  }
+ham.addEventListener("click", toggleHamburger)
+menuX.addEventListener("click", toggleHamburger)
+overlay.addEventListener("click", toggleHamburger)
+
+function toggleHamburger() {
+  overlay.classList.toggle("showOverlay")
+  sideNav.classList.toggle("showNav")
 }
 
-var menuLinks = document.querySelectorAll(".menuLink")
 
-menuLinks.forEach(
-  function (menuLink) {
-    menuLink.addEventListener("click", toggleMenu)
-  }
-)

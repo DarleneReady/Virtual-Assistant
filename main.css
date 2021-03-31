@@ -1,54 +1,32 @@
-#hamnav {
-  position: sticky;
-  top: 0;
+.ham {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
 }
-
-#hamnav {
+.xIcon {
+  display: none;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
-  background: #000;
-  position: sticky;
-  top: 0;
-}
-#hamnav label, #hamburger { display: none; }
-
-
-#hamitems { display: flex; }
-#hamitems a {
-  width: 20%; 
-  padding: 10px;
+  height: 100vh;
+  background: black;
   color: white;
-  text-decoration: none;
-  text-align: center;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
 }
-#hamitems a:hover {
-  background: #401408;
-}
-
-
-@media screen and (max-width: 768px){
-    #hamnav label { 
-    display: inline-block; 
-    color: white;
-    background: #a02620;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
- 
-  #hamitems a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-top: 1px solid #333;
-  }
-
-  #hamitems { display: none; {
-  #hamnav input:checked ~ #hamitems { display: block; }
-}
-
-html, body { 
-  padding: 0; 
-  margin: 0; 
-  font-family: arial, sans-serif; 
+.showNav {
+  transform: translateY(0);
 }

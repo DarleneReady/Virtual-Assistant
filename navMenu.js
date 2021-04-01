@@ -1,20 +1,6 @@
-const sideNav = document.querySelector(".sideNav")
-const overlay = document.querySelector(".overlay")
-const ham = document.querySelector(".ham")
-const menuX = document.querySelector(".menuX")
-const menuItems = document.querySelectorAll(".menuLink")
+let navWrapper = document.querySelector('.nav-wrapper'),
+    navToogler =  document.querySelector('.nav-toogler')
 
-menuItems.forEach(menuItem => {
-  menuItem.addEventListener("click", toggleHamburger)
+navToogler.addEventListener('click', function (event) {
+  navWrapper.classList.toggle('active')
 })
-
-ham.addEventListener("click", toggleHamburger)
-menuX.addEventListener("click", toggleHamburger)
-overlay.addEventListener("click", toggleHamburger)
-
-function toggleHamburger() {
-  overlay.classList.toggle("showOverlay")
-  sideNav.classList.toggle("showNav")
-}
-
-
